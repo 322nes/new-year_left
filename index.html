@@ -1,1 +1,52 @@
-hello
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>New Year</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <section class="section">
+        <div class="header__label" id="label">
+          <h1>До Нового Года осталось:</h1>
+        </div>
+        <div class="header__year" id="year"></div>
+        <div class="header__countdown" id="countdown">
+          <div class="countdown-item">
+            <h2 id="days"></h2>
+            <small>Дней</small>
+          </div>
+          <div class="countdown-item">
+            <h2 id="hours"></h2>
+            <small>Часов</small>
+          </div>
+          <div class="countdown-item">
+            <h2 id="minutes"></h2>
+            <small>Минут</small>
+          </div>
+          <div class="countdown-item">
+            <h2 id="seconds"></h2>
+            <small>Секунд</small>
+          </div>
+        </div>
+        <div class="preloader" id="preloader">
+          <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </section>
+    </header>
+  </div>
+</body>
+<script src="js/main.js"></script>
+
+</html>
