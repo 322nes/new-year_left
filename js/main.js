@@ -27,8 +27,6 @@ function whatNy() {
   seconds.innerText = secondsLeft < 10 ? '0' + secondsLeft : secondsLeft;
 };
 
-whatNy();
-
 setInterval(whatNy, 1000);
 
 setTimeout(function(){
